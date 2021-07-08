@@ -45,7 +45,6 @@ width: 60%;
   margin-top: 3%;
   margin-left: 25%;
   margin-bottom: 7%;
-  align-items: baseline;
 }
 
 .left a {
@@ -53,31 +52,55 @@ width: 60%;
   color: white;
 }
 
-.left a img {
+.topleft a img {
   width: 70%;
+  margin-top: 15%;
 }
 
 #In {
   margin: 5px;
   color: #C6C6C6;
+  font-family: "Spectral";
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 2%;
 }
 
 #Com {
   margin: 5px;
   color: #C6C6C6;
+  font-family: "Spectral";
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 2%;
+}
+
+.topnav {
+  margin-top:0%;
+
 }
 
 nav a {
   color: white;
   margin: 3%;
   font-family: 'Spectral';
-  font-variant: small-caps;
-  font-size: larger;
+  font-size: 15px;
   font-weight: 500;
+
 }
 
 nav {
   width: 100%;
+  margin-top: 8.8%;
+}
+
+#nws {
+  writing-mode: sideways-rl;
+  background-color:red;
+  position : fixed;
+  right:0;
+  top : 20vh;
+  padding:10px;
 }
 
 .iconecart {
@@ -86,7 +109,7 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 20%;
-  margin-left: 50%;
+  margin-left: 30%;
 }
 
 .iconecart #titNouv {
@@ -274,12 +297,8 @@ h2 {
   color:#3F363C;
   font-family: 'Spectral';
 }
+  
 
-
-/* Add a black background color to the top navigation bar */
-.topnav {
-  overflow: hidden;
-}
 
 
 /* Style the search box inside the navigation bar */
