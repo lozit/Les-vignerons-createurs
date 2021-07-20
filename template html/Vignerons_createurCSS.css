@@ -94,14 +94,15 @@ nav {
   margin-top: 8.8%;
 }
 
-#nws {
-  writing-mode: sideways-rl;
-  background-color:red;
+#news {
+  writing-mode: sideways-lr;
+  background-color:#DB9D6B;
   position : fixed;
   right:0;
   top : 20vh;
   padding:10px;
 }
+$ù
 
 .iconecart {
   align-items: center;
@@ -140,7 +141,7 @@ nav {
   text-align: center;
   position: absolute;
   margin-left: 1%;
-  width: 100%
+  width: 40%;
 }
 
 #redu {
@@ -153,37 +154,42 @@ nav {
   font-weight: 600;
   font-size: 30px;
   margin-bottom: 0%;
-  margin-left: 2.3%;
+  margin-left: 5.5%;
 }
 
 #pourcent {
   color: #3F363C;
   font-weight: bold;
   font-size: 53px;
-  margin-top: 3.5%;
-  margin-left: 2%;
+  margin-top: 8.5%;
+  margin-left: 5.5%;
 }
 
 #pan {
   color:rgb(255, 255, 255);
   font-size: 15px;
-  margin-top: 7.5%;
-  margin-left: 3.2%;
+  margin-top: 19.5%;
+  margin-left: 8%;
 
 }
 
 #p1 {
   color: white;
   font-size: 15px;
-  margin-top: 8.5%;
-  margin-left: 3.5%;
+  margin-top: 21.5%;
+  margin-left: 8.5%;
 }
 
-.reduction button {
-  margin-top: 0%;
-  margin-left: 0%;
-  position: absolute
-  
+.red #bouton {
+  position: absolute;
+  margin-top: 10.5%;
+  margin-left: 3%;
+  border-radius:40px;
+  background-color: #3F363C;
+  color: #DB9D6B;
+  z-index: 2;
+  border: none;
+  font-family: 'Spectral';
 }
 
 
